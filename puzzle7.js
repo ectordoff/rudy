@@ -42,3 +42,39 @@ move2();
 move();
 move2();
 move();
+
+
+OR
+
+
+var red = getColor();
+
+function move() {
+
+while (getColor() != "red") {
+  getColor();
+  down();
+  
+}
+right();
+right();
+
+while (getColor() != "red") {
+  getColor();
+  up();
+  
+}
+   right();
+   right();
+
+}
+
+move();
+move();
+
+while (getColor() != "red") {
+  getColor();
+  down();
+  
+}
+right();
